@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/02fd2d3547.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     
+    <!-- this is page loader start -->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- this is page loader end-->
+
+    
+
+    <!-- background crircle start  -->
+    <div class="bg-circles">
+        <video  autoplay loop muted>
+            <source src="assets/7btrrd.mp4" type="video/mp4">
+          </video>
+        <!-- <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div> -->
+    </div>
+    <!-- background crircle end  -->
+
+
+    <!-- overlay start  -->
+    <div class="overlay">
+
+    </div>
+    <!-- overlay end  -->
+
+    <!-- main start  -->
+    <div class="main hidden">
+
+        <!-- header start  -->
+         <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <label id="switch" class="switch">
+                        <input type="checkbox" onchange="toggleTheme()" id="slider">
+                        <span class="slider round"></span>
+                    </label>
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <div class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                                <li><a href="#about" class="nav-item link-item">About Me</a></li>
+                                <li><a href="#projects" class="nav-item link-item">Projects</a></li>
+                                <li><a href="#contact" class="nav-item link-item">Contact Me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </header>
+        <!-- header end  -->
+
+
+        <!-- home section start  -->
+        <section class="home-section align-items-conter  " id="home">
+            <div class="container">
+                <div class="row align-items-conter">
+                    <div class="home-text">
+                        <p>Hello,I'm</p>
+                        <h1><span class="text-color">Preetam</span></h1>
+                        <h2>This is my official portfolio website to show all the
+                            Details and my projects and skills on web development.</h2>
+                        <a href="#about" class="btn link-item">About Me</a>
+                        <a href="#projects" class="btn link-item">Projects</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="assets/picphone1.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- home section end  -->
+
+        <!-- about section start  -->
+        <section class="about-section sec-padding " id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="assets/picphone1.jpg">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>A self-motivated and hardworking fresher seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge and intelligence in the growth of the organization.</p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">SQL</div>
+                            <div class="skill-item">Team Managemnt</div>
+                            <div class="skill-item">NodeJS</div>
+                            <div class="skill-item">Public Speaking</div>
+                        </div>
+
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">education</button>
+                        </div>
+                        <!-- educations contect  -->
+                        <div class="tab-content">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2019-Current</span>
+                                    <h4>Bachelor of Engineering (Computer Science) - <span>Jain College of Engineering and Technology.</span></h4>
+                                    <p>I am pursuing BE in Computer Science with a aggregate of 8.40 cgpa.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2018-2019</span>
+                                    <h4>Higher Secondary School -<span> DR.RB.Patil Mahesh PU College.</span></h4>
+                                    <p>I have completed my PUC with a aggregate of 74.16%.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2017</span>
+                                    <h4>Matriculation -<span> Gaints English High School.</span></h4>
+                                    <p>I have completed my matriculation with a aggregate of 78.40%.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- this end of education contect  -->
+
+                        <!-- this is download button  -->
+                        <a href="CV/Preetam G K(1).pdf" target="_blank" class="btn">Download CV</a>
+                        <a href="#contact" class="btn link-item">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end  -->
+
+        <!-- project sections start  -->
+        <section class="portfolio-section sec-padding" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Projects and Work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- projects title start  -->
+                    <div class="projects-item">
+                        <div class="projects-item-thumbnail">
+                            <img src="assets/ball.png" width="100%" height="420px">
+                        </div>
+                        <h3 class="projects-item-title">Bouncing-Ball</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="projects-item-details">
+                            <div class="description">
+                                <p>Bouncing-Ball created using JavaScript that changes color when it hits to the border.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>27 Sep 2020</span></li>
+                                    <li>Technologies used - <span>Html,Css,JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Code Online - <span><a href="https://github.com/PreetamGKatakali/Bouncing-Ball">Click here <i class="fa-solid fa-up-right-from-square color"></i></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- projects title end  -->
+                    <!-- projects title start  -->
+                    <div class="projects-item">
+                        <div class="projects-item-thumbnail">
+                            <img src="assets/game.png" width="100%" height="420px">
+                        </div>
+                        <h3 class="projects-item-title">Rat game</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="projects-item-details">
+                            <div class="description">
+                                <p>A simple rat game where rat eat chesse which is controled by arrow key's.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>22 Sep 2020</span></li>
+                                    <li>Technologies used -<span>Html,Css,JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Online - <span><a href="https://github.com/PreetamGKatakali/Board-game">Click here <i class="fa-solid fa-up-right-from-square color"></i></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- projects title end  -->
+                    <!-- projects title start  -->
+                    <div class="projects-item">
+                        <div class="projects-item-thumbnail">
+                            <img src="assets/examApp.png" width="100%" height="420px">
+                        </div>
+                        <h3 class="projects-item-title">Online Exam Application</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="projects-item-details">
+                            <div class="description">
+                                <p>Online exam application id web-based application for technical evaluation.where you can take up online exam and the result will be shared on screen scored by the student.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>6 Oct 2020</span></li>
+                                    <li>Technologies used - <span>Html,Css,JavaScript,NodeJS</span></li>
+                                    <li>Role - <span>Frontend and Backend.</span></li>
+                                    <li>View Online - <span><a href="https://github.com/PreetamGKatakali/online-exam">Click here <i class="fa-solid fa-up-right-from-square color"></i></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- projects title end  -->
+                    <!-- projects title start  -->
+                    <div class="projects-item">
+                        <div class="projects-item-thumbnail">
+                            <img src="assets/userexp.png" width="100%" height="420px">
+                        </div>
+                        <h3 class="projects-item-title">User Experience Review with Emoji</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="projects-item-details">
+                            <div class="description">
+                                <p>This project is built using HTML,CSS,JavaScript programming languages.which take user review with help of input silder using emoji.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>30 Sep 2020</span></li>
+                                    <li>Technologies used - <span>Html,Css,JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Online-<span><a href="https://github.com/PreetamGKatakali/User-Expression-Reviews">Click here <i class="fa-solid fa-up-right-from-square color"></i></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- projects title end  -->
+                    <!-- projects title start  -->
+                    <div class="projects-item">
+                        <div class="projects-item-thumbnail">
+                            <img src="assets/socket.png" width="100%" height="420px">
+                        </div>
+                        <h3 class="projects-item-title">Chat-Application</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="projects-item-details">
+                            <div class="description">
+                                <p>A server and client communication with txt message.In addition if there are two or more clients (i.e two or more windows tabs).
+                                    If the new client had joined the chat it emits message that user {username} had joined the chat to all other clients</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>4 Nov 2020</span></li>
+                                    <li>Technologies used - <span>Html,Css,JavaScript,NodeJS</span></li>
+                                    <li>Role - <span>Frontend and Backend.</span></li>
+                                    <li>View Online - <span><a href="https://github.com/PreetamGKatakali/Chat-Application">Click here <i class="fa-solid fa-up-right-from-square color"></i></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- projects title end  -->
+                </div>
+            </div>
+        </section>
+        <!-- project sections end  -->
+
+        <!-- this is contact sections start  -->
+        <section class="contact-section sec-padding " id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Name</h3>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>pkatakali@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>+91 98457 26276</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Follow Me</h3>
+                            <div class="social-links">
+                                <a href="mailto:pkatakali@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="https://www.instagram.com/preetam_g_k_12" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://github.com/PreetamGKatakali" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/preetam-katakali-6130a6200" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form name="submit-to-google-sheet">
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" name="Name" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" name="Email" placeholder="Email@gmail.com" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text"  name="Subject" placeholder="Subject" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea name="Message" placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                                <!-- <div id="submit-msg">Message sent sucessfully</div> -->
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- this is contact sections end  -->
+
+
+
+
+
+    </div>
+    <!-- main end  -->
+
+    <!-- projects item details popup start  -->
+    <div class="projects-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fa-solid fa-x"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="assets/ball.png" width="270px" height="350px"> 
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- projects item details popup end  -->
+    <script src="script.js"></script>
+</body>
+</html>
