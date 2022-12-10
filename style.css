@@ -138,17 +138,6 @@ body{
 body.hide-scrolling{
     overflow-y:hidden;
 }
-/* body::before{
-    content: '';
-    position:fixed;
-    left:0;
-    top:0;
-    height:100%;
-    width: 100%;
-    background-color: var(--green-yellow);
-    z-index: -1;
-    opacity: 0.12;
-} */
 a{
     text-decoration: none;
 }
@@ -282,41 +271,6 @@ section.fade-out{
 .bg-circles div{
     position: absolute;
     border-radius: 50%;
-}
-.bg-circles .circle-1{
-    height: 60px;
-    width: 60px;
-    background-color: var(--blue);
-    left: 5%;
-    top: 10%;
-    opacity: 0.3;
-    animation: zoomInOut 8s linear infinite;
-
-}
-.bg-circles .circle-2{
-    height: 80px;
-    width: 80px;
-    background-color: var(--main-color);
-    left: 30%;
-    top: 50%;
-    opacity: 0.4;
-    animation: bounceTop 5s ease-in-out infinite;
-}
-.bg-circles .circle-3{
-    height: 120px;
-    width: 120px;
-    background-color: var(--white);
-    top: 40%;
-    right: -60px;
-    opacity: 0.6;
-}
-.bg-circles .circle-4{
-    height: 50px;
-    width: 50px;
-    background-color: var(--orange);
-    top: 80%;
-    left: -30px;
-    opacity: 0.6;
 }
 /* this is overlay  */
 .overlay{
@@ -914,13 +868,6 @@ button{
     color: var(--white);
     background-color: var(--main-color);
 }
-/* this is for submit-msg display  */
-/* #submit-msg{
-    color: #26ff00;
-    display:block;
-    
-} */
-
 /* Responsive  */
 @media(max-width:991px){
     .container{
